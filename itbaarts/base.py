@@ -54,7 +54,7 @@ class Base:
 
     def log(self, msg):
         now = datetime.now().isoformat(" ").split(".")[0]
-        print(f"{self.black}[⚔] | {self.reset} {msg}{self.reset}")
+        print(f"{self.black}[FOREST ARMY] | {self.reset} {msg}{self.reset}")
 
     # Handle proxy version
     def format_proxy(self, proxy_info):
